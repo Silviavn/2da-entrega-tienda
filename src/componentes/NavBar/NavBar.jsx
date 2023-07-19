@@ -1,12 +1,11 @@
-import { Link, NavLink } from 'react-router-dom'
 import '../CartWidget/CartWidget'
-import './NavBar.css'
+import { Link, NavLink } from 'react-router-dom'
+import '../NavBar/NavBar'
 import CartWidget from '../CartWidget/CartWidget'
-
 
 const NavBar = () => {
   return (
-    <header>
+    <header className='barra'>
         <Link to="/">
             <h1 className='text-center'>Child care line</h1>
         </Link>
